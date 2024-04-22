@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="Index.css">
+    
+  </head>
+  <body>
+    <h1>Task Manager App</h1>
+    <h3>Create New Task</h3>
+    <div class="newtaskdiv">
+      <input type="text" placeholder="input new task" class="js-taskinputfield newtaskinput">
+      <button class="js-addtaskbutton" onclick="addTask()">Add Task</button>
+    </div>
+
+    <h3>All Tasks</h3>
+    <ul class="js-taskList"></ul>
+
+    <button class="deleteButton deleteAllTasks" onclick="deleteAllTasks()" type="button">Delete All Tasks</button>
+  
+    <script src="Main.js"></script>
+  </body>
+</html>
